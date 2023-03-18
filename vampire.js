@@ -96,6 +96,7 @@ class Vampire {
         }
         currentVamp = currentVamp.creator;
       }
+      //traverse back up to ensure all nodes in the tree get a to be compared
       targetVamp = targetVamp.creator;
     }
   }
